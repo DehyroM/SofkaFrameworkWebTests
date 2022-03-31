@@ -1,0 +1,94 @@
+2022-mar-31 00:08:40 [Test] COMPLETED : Action 'startWebApp' executed successfully with parameters :
+'Feature : 'carritoDeCompras' , Url : 'http://automationpractice.com/index.php''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\carritoDeCompras_2022-03-31T00-08\carritoDeCompras\comprarUnArticulo . Image name: comprarUnArticulo-0.png
+2022-mar-31 00:08:43 [Test] COMPLETED : Action 'click' executed successfully with parameters :
+'Web Element located by : 'No information' , Timeout : '2''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\carritoDeCompras_2022-03-31T00-08\carritoDeCompras\comprarUnArticulo . Image name: comprarUnArticulo-1.png
+2022-mar-31 00:08:45 [Test] COMPLETED : Action 'sendText' executed successfully with parameters :
+'Web Element located by : 'No information' , Text : 'QuincyWilderman@sofmail.com' , Timeout : '2''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\carritoDeCompras_2022-03-31T00-08\carritoDeCompras\comprarUnArticulo . Image name: comprarUnArticulo-2.png
+2022-mar-31 00:08:46 [Test] COMPLETED : Action 'click' executed successfully with parameters :
+'Web Element located by : 'No information' , Timeout : '2''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\carritoDeCompras_2022-03-31T00-08\carritoDeCompras\comprarUnArticulo . Image name: comprarUnArticulo-3.png
+2022-mar-31 00:08:49 [Test] COMPLETED : Action 'click' executed successfully with parameters :
+'Web Element located by : 'id: uniform-id_gender1' , Timeout : '10''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\carritoDeCompras_2022-03-31T00-08\carritoDeCompras\comprarUnArticulo . Image name: comprarUnArticulo-4.png
+2022-mar-31 00:08:50 [Test] COMPLETED : Action 'sendText' executed successfully with parameters :
+'Web Element located by : 'No information' , Text : 'Quincy' , Timeout : '5''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\carritoDeCompras_2022-03-31T00-08\carritoDeCompras\comprarUnArticulo . Image name: comprarUnArticulo-5.png
+2022-mar-31 00:08:51 [Test] COMPLETED : Action 'sendText' executed successfully with parameters :
+'Web Element located by : 'No information' , Text : 'Wilderman' , Timeout : '5''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\carritoDeCompras_2022-03-31T00-08\carritoDeCompras\comprarUnArticulo . Image name: comprarUnArticulo-6.png
+2022-mar-31 00:08:52 [Test] COMPLETED : Action 'sendText' executed successfully with parameters :
+'Web Element located by : 'No information' , Text : '36939587' , Timeout : '5''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\carritoDeCompras_2022-03-31T00-08\carritoDeCompras\comprarUnArticulo . Image name: comprarUnArticulo-7.png
+2022-mar-31 00:08:53 [Test] COMPLETED : Action 'selectByPartialText' executed successfully with parameters :
+'Web Element located by : 'No information' , Option Partial Text : '24' , Timeout : '5''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\carritoDeCompras_2022-03-31T00-08\carritoDeCompras\comprarUnArticulo . Image name: comprarUnArticulo-8.png
+2022-mar-31 00:08:53 [Test] COMPLETED : Action 'selectByValue' executed successfully with parameters :
+'Web Element located by : 'No information' , Option Value : '7' , Timeout : '5''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\carritoDeCompras_2022-03-31T00-08\carritoDeCompras\comprarUnArticulo . Image name: comprarUnArticulo-9.png
+2022-mar-31 00:08:55 [Test] COMPLETED : Action 'selectByPartialText' executed successfully with parameters :
+'Web Element located by : 'No information' , Option Partial Text : '1983' , Timeout : '5''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\carritoDeCompras_2022-03-31T00-08\carritoDeCompras\comprarUnArticulo . Image name: comprarUnArticulo-10.png
+2022-mar-31 00:08:56 [Test] COMPLETED : Action 'sendText' executed successfully with parameters :
+'Web Element located by : 'No information' , Text : '8368 Johnston Point, Ashtonport, WV 60414' , Timeout : '5''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\carritoDeCompras_2022-03-31T00-08\carritoDeCompras\comprarUnArticulo . Image name: comprarUnArticulo-11.png
+2022-mar-31 00:08:56 [Test] COMPLETED : Action 'sendText' executed successfully with parameters :
+'Web Element located by : 'No information' , Text : 'South Dasia' , Timeout : '5''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\carritoDeCompras_2022-03-31T00-08\carritoDeCompras\comprarUnArticulo . Image name: comprarUnArticulo-12.png
+2022-mar-31 00:08:57 [Test] COMPLETED : Action 'selectByText' executed successfully with parameters :
+'Web Element located by : 'No information' , Option Text : 'New Jersey' , Timeout : '5''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\carritoDeCompras_2022-03-31T00-08\carritoDeCompras\comprarUnArticulo . Image name: comprarUnArticulo-13.png
+2022-mar-31 00:08:58 [Test] COMPLETED : Action 'sendText' executed successfully with parameters :
+'Web Element located by : 'No information' , Text : '85760' , Timeout : '5''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\carritoDeCompras_2022-03-31T00-08\carritoDeCompras\comprarUnArticulo . Image name: comprarUnArticulo-14.png
+2022-mar-31 00:08:58 [Test] COMPLETED : Action 'sendText' executed successfully with parameters :
+'Web Element located by : 'No information' , Text : '3002392734' , Timeout : '5''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\carritoDeCompras_2022-03-31T00-08\carritoDeCompras\comprarUnArticulo . Image name: comprarUnArticulo-15.png
+2022-mar-31 00:09:01 [Test] COMPLETED : Action 'click' executed successfully with parameters :
+'Web Element located by : 'No information' , Timeout : '5''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\carritoDeCompras_2022-03-31T00-08\carritoDeCompras\comprarUnArticulo . Image name: comprarUnArticulo-16.png
+2022-mar-31 00:09:03 [Test] COMPLETED : Action 'click' executed successfully with parameters :
+'Web Element located by : 'No information' , Timeout : '10''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\carritoDeCompras_2022-03-31T00-08\carritoDeCompras\comprarUnArticulo . Image name: comprarUnArticulo-17.png
+2022-mar-31 00:09:04 [Test] COMPLETED : Action 'moveTo' executed successfully with parameters :
+'Web Element located by : 'No information' , Timeout : '10''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\carritoDeCompras_2022-03-31T00-08\carritoDeCompras\comprarUnArticulo . Image name: comprarUnArticulo-18.png
+2022-mar-31 00:09:04 [Test] COMPLETED : Action 'click' executed successfully with parameters :
+'Web Element located by : 'No information' , Timeout : '10''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\carritoDeCompras_2022-03-31T00-08\carritoDeCompras\comprarUnArticulo . Image name: comprarUnArticulo-19.png
+2022-mar-31 00:09:05 [Test] COMPLETED : Action 'moveTo' executed successfully with parameters :
+'Web Element located by : 'No information' , Timeout : '10''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\carritoDeCompras_2022-03-31T00-08\carritoDeCompras\comprarUnArticulo . Image name: comprarUnArticulo-20.png
+2022-mar-31 00:09:06 [Test] COMPLETED : Action 'clickNotVisible' executed successfully with parameters :
+'Web Element located by : 'No information' , Timeout : '10''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\carritoDeCompras_2022-03-31T00-08\carritoDeCompras\comprarUnArticulo . Image name: comprarUnArticulo-21.png
+2022-mar-31 00:09:07 [Test] COMPLETED : Action 'moveTo' executed successfully with parameters :
+'Web Element located by : 'No information' , Timeout : '10''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\carritoDeCompras_2022-03-31T00-08\carritoDeCompras\comprarUnArticulo . Image name: comprarUnArticulo-22.png
+2022-mar-31 00:09:09 [Test] COMPLETED : Action 'click' executed successfully with parameters :
+'Web Element located by : 'No information' , Timeout : '10''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\carritoDeCompras_2022-03-31T00-08\carritoDeCompras\comprarUnArticulo . Image name: comprarUnArticulo-23.png
+2022-mar-31 00:09:09 [Test] COMPLETED : Action 'moveTo' executed successfully with parameters :
+'Web Element located by : 'No information' , Timeout : '10''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\carritoDeCompras_2022-03-31T00-08\carritoDeCompras\comprarUnArticulo . Image name: comprarUnArticulo-24.png
+2022-mar-31 00:09:11 [Test] COMPLETED : Action 'click' executed successfully with parameters :
+'Web Element located by : 'No information' , Timeout : '10''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\carritoDeCompras_2022-03-31T00-08\carritoDeCompras\comprarUnArticulo . Image name: comprarUnArticulo-25.png
+2022-mar-31 00:09:11 [Test] COMPLETED : Action 'moveTo' executed successfully with parameters :
+'Web Element located by : 'No information' , Timeout : '10''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\carritoDeCompras_2022-03-31T00-08\carritoDeCompras\comprarUnArticulo . Image name: comprarUnArticulo-26.png
+2022-mar-31 00:09:13 [Test] COMPLETED : Action 'click' executed successfully with parameters :
+'Web Element located by : 'No information' , Timeout : '10''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\carritoDeCompras_2022-03-31T00-08\carritoDeCompras\comprarUnArticulo . Image name: comprarUnArticulo-27.png
+2022-mar-31 00:09:13 [Test] COMPLETED : Action 'moveTo' executed successfully with parameters :
+'Web Element located by : 'No information' , Timeout : '10''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\carritoDeCompras_2022-03-31T00-08\carritoDeCompras\comprarUnArticulo . Image name: comprarUnArticulo-28.png
+2022-mar-31 00:09:14 [Test] COMPLETED : Action 'click' executed successfully with parameters :
+'Web Element located by : 'No information' , Timeout : '10''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\carritoDeCompras_2022-03-31T00-08\carritoDeCompras\comprarUnArticulo . Image name: comprarUnArticulo-29.png
+2022-mar-31 00:09:15 [Test] COMPLETED : Action 'moveTo' executed successfully with parameters :
+'Web Element located by : 'No information' , Timeout : '10''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\carritoDeCompras_2022-03-31T00-08\carritoDeCompras\comprarUnArticulo . Image name: comprarUnArticulo-30.png
+2022-mar-31 00:09:16 [Test] INFO  : ***** HA FINALIZADO LA PRUEBA *****carritoDeCompras-comprarUnArticulo
