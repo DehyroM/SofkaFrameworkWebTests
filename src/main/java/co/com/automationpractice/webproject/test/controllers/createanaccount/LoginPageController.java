@@ -6,8 +6,7 @@ import co.com.sofka.test.evidence.reports.Report;
 import co.com.sofka.test.exceptions.WebActionsException;
 
 import static co.com.automationpractice.webproject.test.helpers.Dictionary.LOGIN_PAGE_ERROR;
-import static co.com.automationpractice.webproject.test.helpers.Seconds.FIVE_SECONDS;
-import static co.com.automationpractice.webproject.test.helpers.Seconds.TEN_SECONDS;
+import static co.com.automationpractice.webproject.test.helpers.Seconds.*;
 
 public class LoginPageController {
 
@@ -21,7 +20,7 @@ public class LoginPageController {
         try{
             LandingPage landingPage = new LandingPage(webAction.getDriver());
 
-            webAction.click(landingPage.getSignIn(),TEN_SECONDS.getValue(),true);
+            webAction.click(landingPage.getSignIn(),TWENTY_SECONDS.getValue(),true);
 
         } catch (WebActionsException e) {
             Report.reportFailure(LOGIN_PAGE_ERROR, e);

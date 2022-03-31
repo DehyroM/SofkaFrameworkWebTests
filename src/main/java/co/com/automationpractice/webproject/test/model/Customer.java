@@ -1,11 +1,9 @@
 package co.com.automationpractice.webproject.test.model;
 
 import co.com.automationpractice.webproject.test.helpers.Subject;
-import co.com.automationpractice.webproject.test.helpers.Title;
 
 public class Customer {
 
-    private Title title;
     private String email;
     private String firstName;
     private String lastName;
@@ -21,7 +19,7 @@ public class Customer {
     private String product;
     private String order;
     private String message;
-    private Subject subject;
+    private String subject;
     private String alias;
 
     public String getEmail() {
@@ -144,19 +142,11 @@ public class Customer {
         this.message = message;
     }
 
-    public Title getTitle() {
-        return title;
-    }
-
-    public void setTitle(Title title) {
-        this.title = title;
-    }
-
-    public Subject getSubject() {
+    public String getSubject() {
         return subject;
     }
 
-    public void setSubject(Subject subject) {
+    public void setSubject(String subject) {
         this.subject = subject;
     }
 

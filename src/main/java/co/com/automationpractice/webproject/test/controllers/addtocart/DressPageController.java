@@ -6,7 +6,7 @@ import co.com.sofka.test.evidence.reports.Report;
 import co.com.sofka.test.exceptions.WebActionsException;
 
 import static co.com.automationpractice.webproject.test.helpers.Dictionary.DRESSES_PAGE_ERROR;
-import static co.com.automationpractice.webproject.test.helpers.Seconds.TEN_SECONDS;
+import static co.com.automationpractice.webproject.test.helpers.Seconds.TWENTY_SECONDS;
 
 public class DressPageController {
 
@@ -20,12 +20,12 @@ public class DressPageController {
         try{
             DressesPage dressesPage = new DressesPage(webAction.getDriver());
 
-            webAction.click(dressesPage.getDresses(), TEN_SECONDS.getValue(),true);
-            webAction.moveTo(dressesPage.getCategorySummer(), TEN_SECONDS.getValue(), true);
-            webAction.click(dressesPage.getCategorySummer(), TEN_SECONDS.getValue(), true);
-            webAction.moveTo(dressesPage.getStockBtn(), TEN_SECONDS.getValue(), true);
-            webAction.clickNotVisible(dressesPage.getAddPrintedDress(), TEN_SECONDS.getValue(), true);
-            webAction.click(dressesPage.getProceedToCheckoutBtnDress(), TEN_SECONDS.getValue(), true);
+            webAction.click(dressesPage.getDresses(), TWENTY_SECONDS.getValue(),true);
+            webAction.moveTo(dressesPage.getCategorySummer(), TWENTY_SECONDS.getValue(), true);
+            webAction.click(dressesPage.getCategorySummer(), TWENTY_SECONDS.getValue(), true);
+            webAction.moveTo(dressesPage.getStockBtn(), TWENTY_SECONDS.getValue(), true);
+            webAction.clickNotVisible(dressesPage.getAddPrintedDress(), TWENTY_SECONDS.getValue(), true);
+            webAction.click(dressesPage.getProceedToCheckoutBtnDress(), TWENTY_SECONDS.getValue(), true);
 
         } catch (WebActionsException e) {
             Report.reportFailure(DRESSES_PAGE_ERROR, e);

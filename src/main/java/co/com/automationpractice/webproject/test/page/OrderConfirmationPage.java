@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 public class OrderConfirmationPage {
 
     @CacheLookup
-    @FindBy(xpath = "//*[@id=\"center_column\"]/div/p/strong")
+    @FindBy(xpath = "//*[@id=\"center_column\"]/h1")
     WebElement orderConfirmationMessage;
 
     public WebElement getOrderConfirmationMessage() {

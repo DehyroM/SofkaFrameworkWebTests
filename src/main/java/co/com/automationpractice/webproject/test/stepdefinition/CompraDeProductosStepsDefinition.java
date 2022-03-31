@@ -1,8 +1,6 @@
 package co.com.automationpractice.webproject.test.stepdefinition;
 
-import co.com.automationpractice.webproject.test.controllers.addtocart.DressPageController;
-import co.com.automationpractice.webproject.test.controllers.addtocart.OrderConfirmationController;
-import co.com.automationpractice.webproject.test.controllers.addtocart.ShoppingCartController;
+import co.com.automationpractice.webproject.test.controllers.addtocart.*;
 import co.com.automationpractice.webproject.test.controllers.createanaccount.CreateAnAccountWebController;
 import co.com.automationpractice.webproject.test.controllers.createanaccount.LoginPageController;
 import co.com.automationpractice.webproject.test.controllers.openwebpage.StartBrowserWebController;
@@ -16,6 +14,7 @@ import io.cucumber.java.es.Dado;
 import io.cucumber.java.es.Entonces;
 
 import static co.com.automationpractice.webproject.test.helpers.Dictionary.ORDER_CONFIRMATION;
+import static co.com.automationpractice.webproject.test.helpers.Dictionary.TERMS_OF_SERVICE_MESSAGE;
 
 public class CompraDeProductosStepsDefinition extends Setup{
 
@@ -70,6 +69,33 @@ public class CompraDeProductosStepsDefinition extends Setup{
                 .Hard
                 .thatString(confirmationMessage)
                 .isEqualTo(ORDER_CONFIRMATION);
+
+    }
+
+    @Cuando("el cliente ingresa a la sección WOMEN, agrega dos articulos al carrito de compras sin checkear los términos y condiciones")
+    public void elClienteIngresaALaSeccionWomenAgregaDosArticulosAlCarritoDeComprasSinCheckearLosTerminosYCondiciones() {
+
+        WomenPageController womenPageController= new WomenPageController();
+        womenPageController.setWebAction(webAction);
+        womenPageController.seleccionarProductos();
+
+        ShoppingCartController shoppingCartController = new ShoppingCartController();
+        shoppingCartController.setWebAction(webAction);
+        shoppingCartController.agregarProductosSinCheckearTerminos();
+
+    }
+    @Entonces("el cliente visualizará un mensaje indicando que se deben aceptar los términos del servicio")
+    public void elClienteVisualizaraUnMensajeIndicandoQueSeDebenAceptarLosTerminosDelServicio() {
+
+        TermsOfServiceController termsOfServiceController = new TermsOfServiceController();
+        termsOfServiceController.setWebAction(webAction);
+
+        String confirmationMessage = termsOfServiceController.obtenerMensajeDeConfirmacion();
+
+        Assert
+                .Hard
+                .thatString(confirmationMessage)
+                .isEqualTo(TERMS_OF_SERVICE_MESSAGE);
 
     }
 

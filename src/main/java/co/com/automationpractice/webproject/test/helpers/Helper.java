@@ -15,7 +15,8 @@ public class Helper {
     private Helper(){
 
     }
-    private static int number;
+
+    private static Faker faker;
 
     public static String getProperty(String property){
         Properties properties = new Properties();
@@ -32,12 +33,10 @@ public class Helper {
 
     public static Customer generateCustomer(String emailDomain){
 
-        Faker faker = new Faker();
-        number = faker.number().numberBetween(0, 2);
+        faker = new Faker();
 
         Customer customer = new Customer();
 
-        customer.setTitle(theTitle(number));
         customer.setFirstName(faker.name().firstName());
         customer.setLastName(faker.name().lastName());
         customer.setEmail(
@@ -69,18 +68,15 @@ public class Helper {
                         )
         );
         customer.setState(faker.address().state());
-        customer.setAlias(faker.superhero().name().concat(" Home"));
+        customer.setAlias(customer.getFirstName().concat(" Home"));
 
         return customer;
     }
 
     public static Customer generateCustomerForContactUs(String emailDomain){
 
-        Faker faker = new Faker();
-
+        faker = new Faker();
         Customer customer = new Customer();
-        number = faker.number().numberBetween(0, 2);
-
         customer.setFirstName(faker.name().firstName());
         customer.setLastName(faker.name().lastName());
         customer.setEmail(
@@ -94,19 +90,14 @@ public class Helper {
         customer.setProduct(faker.commerce().productName());
         customer.setOrder("Query about "+customer.getProduct());
         customer.setMessage("I would like to know if you have this product: "+customer.getProduct());
-        customer.setSubject(theSubject(number));
+        customer.setSubject(String.valueOf(faker.number().numberBetween(1,3)));
 
         return customer;
     }
 
-    public static Title theTitle(int titleItem){
-        Title[] titleNames = {Title.MR, Title.MRS};
-        return titleNames[titleItem];
-    }
-
-    public static Subject theSubject(int subjectItem){
-        Subject[] subjectNames = {Subject.CUSTOMER_SERVICE, Subject.WEBMASTER};
-        return subjectNames[subjectItem];
+    public static int randomNumber(){
+        faker = new Faker();
+        return faker.number().numberBetween(0, 2);
     }
 
 }

@@ -1,6 +1,0 @@
-2022-mar-31 10:43:37 [Test] COMPLETED : Action 'startWebApp' executed successfully with parameters :
-'Feature : 'carritoDeCompras' , Url : 'http://automationpractice.com/index.php''.
-		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\carritoDeCompras_2022-03-31T10-42\carritoDeCompras\comprarUnArticulo . Image name: comprarUnArticulo-0.png
-2022-mar-31 10:43:42 [Test] COMPLETED : Action 'click' executed successfully with parameters :
-'Web Element located by : 'No information' , Timeout : '10''.
-		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\carritoDeCompras_2022-03-31T10-42\carritoDeCompras\comprarUnArticulo . Image name: comprarUnArticulo-1.png

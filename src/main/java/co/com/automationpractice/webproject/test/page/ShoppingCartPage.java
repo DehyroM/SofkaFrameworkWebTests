@@ -13,6 +13,10 @@ public class ShoppingCartPage {
     WebElement proceedToCheckoutBtnCart;
 
     @CacheLookup
+    @FindBy(xpath = "//*[@id=\"ordermsg\"]/textarea")
+    WebElement addCommentMessage;
+
+    @CacheLookup
     @FindBy(xpath = "//*[@id=\"center_column\"]/form/p/button/span")
     WebElement proceedToCheckoutSecondStep;
 
@@ -42,6 +46,10 @@ public class ShoppingCartPage {
 
     public WebElement getProceedToCheckoutSecondStep() {
         return proceedToCheckoutSecondStep;
+    }
+
+    public WebElement getAddCommentMessage() {
+        return addCommentMessage;
     }
 
     public WebElement getAgreeTermsCondition() {

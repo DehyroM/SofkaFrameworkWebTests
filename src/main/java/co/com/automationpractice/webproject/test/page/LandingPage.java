@@ -14,8 +14,8 @@ public class LandingPage {
     WebElement signIn;
 
     @CacheLookup
-    @FindBy(xpath = "//*[@id=\"block_top_menu\"]/ul/li[2]/a")
-    WebElement dresses;
+    @FindBy(xpath = "//*[@id=\"block_top_menu\"]/ul/li[1]/a")
+    WebElement women;
 
     public WebElement getSignIn() {
         return signIn;

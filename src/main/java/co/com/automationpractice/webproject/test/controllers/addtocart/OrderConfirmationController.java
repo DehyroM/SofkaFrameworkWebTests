@@ -7,7 +7,7 @@ import co.com.sofka.test.exceptions.WebActionsException;
 
 import static co.com.automationpractice.webproject.test.helpers.Dictionary.EMPTY_STRING;
 import static co.com.automationpractice.webproject.test.helpers.Dictionary.ORDER_CONFIRMATION_ERROR;
-import static co.com.automationpractice.webproject.test.helpers.Seconds.TEN_SECONDS;
+import static co.com.automationpractice.webproject.test.helpers.Seconds.TWENTY_SECONDS;
 
 public class OrderConfirmationController {
 
@@ -24,7 +24,7 @@ public class OrderConfirmationController {
 
             OrderConfirmationPage orderConfirmationPage = new OrderConfirmationPage(webAction.getDriver());
 
-            mensajeDeConfirmacion = webAction.getText(orderConfirmationPage.getOrderConfirmationMessage(),TEN_SECONDS.getValue(), true);
+            mensajeDeConfirmacion = webAction.getText(orderConfirmationPage.getOrderConfirmationMessage(),TWENTY_SECONDS.getValue(), true);
 
         } catch (WebActionsException e) {
             Report.reportFailure(ORDER_CONFIRMATION_ERROR, e);
