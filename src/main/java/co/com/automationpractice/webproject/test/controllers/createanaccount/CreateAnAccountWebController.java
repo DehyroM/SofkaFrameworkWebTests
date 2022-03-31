@@ -1,7 +1,7 @@
 package co.com.automationpractice.webproject.test.controllers.createanaccount;
 
 import co.com.automationpractice.webproject.test.model.Customer;
-import co.com.automationpractice.webproject.test.page.CreateAnAccountPage;
+import co.com.automationpractice.webproject.test.page.createanaccount.CreateAnAccountPage;
 import co.com.sofka.test.actions.WebAction;
 import co.com.sofka.test.evidence.reports.Report;
 import co.com.sofka.test.exceptions.WebActionsException;
@@ -16,10 +16,6 @@ public class CreateAnAccountWebController {
     private WebAction webAction;
     private Customer customer;
 
-    public Customer getCustomer() {
-        return customer;
-    }
-
     public void setWebAction(WebAction webAction) {
         this.webAction = webAction;
     }
@@ -27,14 +23,14 @@ public class CreateAnAccountWebController {
     public void crearUnaCuenta(){
         try{
             customer = generateCustomer(EMAIL_DOMAIN);
-            int number = randomNumber();
+            String randomTitleOption = randomNumber();
 
             CreateAnAccountPage createAnAccountPage = new CreateAnAccountPage(webAction.getDriver());
 
             webAction.sendText(createAnAccountPage.getEmailAddress(),customer.getEmail(),TWENTY_SECONDS.getValue(),true);
             webAction.click(createAnAccountPage.getCreateAnAccount(), TWENTY_SECONDS.getValue(), true);
 
-            if (number == 0){
+            if (randomTitleOption.equals("0")){
                 webAction.click(createAnAccountPage.getMr(), TWENTY_SECONDS.getValue(), true);
             }else {
                 webAction.click(createAnAccountPage.getMrs(), TWENTY_SECONDS.getValue(), true);

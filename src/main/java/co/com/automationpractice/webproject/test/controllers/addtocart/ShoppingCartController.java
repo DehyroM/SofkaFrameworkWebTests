@@ -1,6 +1,6 @@
 package co.com.automationpractice.webproject.test.controllers.addtocart;
 
-import co.com.automationpractice.webproject.test.page.ShoppingCartPage;
+import co.com.automationpractice.webproject.test.page.addtocart.ShoppingCartPage;
 import co.com.sofka.test.actions.WebAction;
 import co.com.sofka.test.evidence.reports.Report;
 import co.com.sofka.test.exceptions.WebActionsException;
@@ -20,7 +20,7 @@ public class ShoppingCartController {
 
     public void procederAgregarProducto(){
         try{
-            int number = randomNumber();
+            String randomPayOption = randomNumber();
             ShoppingCartPage shoppingCartPage = new ShoppingCartPage(webAction.getDriver());
 
             webAction.moveTo(shoppingCartPage.getProceedToCheckoutBtnCart(), TWENTY_SECONDS.getValue(), true);
@@ -38,7 +38,7 @@ public class ShoppingCartController {
             webAction.moveTo(shoppingCartPage.getProceedToCheckoutThirdStep(), TWENTY_SECONDS.getValue(), true);
             webAction.click(shoppingCartPage.getProceedToCheckoutThirdStep(), TWENTY_SECONDS.getValue(), true);
 
-            if (number == 0){
+            if (randomPayOption.equals("0")){
                 webAction.moveTo(shoppingCartPage.getPayByBankOption(), TWENTY_SECONDS.getValue(), true);
                 webAction.click(shoppingCartPage.getPayByBankOption(), TWENTY_SECONDS.getValue(), true);
             }else {

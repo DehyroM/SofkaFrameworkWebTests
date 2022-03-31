@@ -1,6 +1,6 @@
 package co.com.automationpractice.webproject.test.controllers.addtocart;
 
-import co.com.automationpractice.webproject.test.page.TermsOfServicePage;
+import co.com.automationpractice.webproject.test.page.addtocart.TermsOfServicePage;
 import co.com.sofka.test.actions.WebAction;
 import co.com.sofka.test.evidence.reports.Report;
 import co.com.sofka.test.exceptions.WebActionsException;

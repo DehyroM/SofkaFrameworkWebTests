@@ -7,6 +7,8 @@ import co.com.automationpractice.webproject.test.controllers.openwebpage.StartBr
 import co.com.automationpractice.webproject.test.data.objects.TestInfo;
 import co.com.sofka.test.actions.WebAction;
 import co.com.sofka.test.evidence.reports.Assert;
+import co.com.sofka.test.evidence.reports.Report;
+import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import io.cucumber.java.es.Cuando;
@@ -99,4 +101,15 @@ public class CompraDeProductosStepsDefinition extends Setup{
 
     }
 
+    @After
+    public void cerrarDriver(){
+
+        if (webAction != null && webAction.getDriver() != null)
+            webAction.closeBrowser();
+
+        Report.reportInfo("***** HA FINALIZADO LA PRUEBA******"
+                .concat(testInfo.getFeatureName())
+                .concat("-")
+                .concat(testInfo.getScenarioName()));
+    }
 }

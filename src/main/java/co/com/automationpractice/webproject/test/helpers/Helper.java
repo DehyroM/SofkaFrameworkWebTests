@@ -95,9 +95,11 @@ public class Helper {
         return customer;
     }
 
-    public static int randomNumber(){
+    public static String randomNumber(){
         faker = new Faker();
-        return faker.number().numberBetween(0, 2);
+        return String.valueOf(faker.number().numberBetween(1, 4));
     }
+
+
 
 }

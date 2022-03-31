@@ -1,6 +1,6 @@
 package co.com.automationpractice.webproject.test.controllers.createanaccount;
 
-import co.com.automationpractice.webproject.test.page.LandingPage;
+import co.com.automationpractice.webproject.test.page.createanaccount.LandingPage;
 import co.com.sofka.test.actions.WebAction;
 import co.com.sofka.test.evidence.reports.Report;
 import co.com.sofka.test.exceptions.WebActionsException;

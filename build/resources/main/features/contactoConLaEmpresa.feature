@@ -5,8 +5,10 @@ Característica: Contacto con la Empresa
   Quiero poder contactarme con la empresa de forma virtual
   Para recibir información útil sobre sus productos y servicios
 
-  @ScenarioName:contactoConSitioWeb
-  Escenario: contacto con el Sitio Web
+  Antecedentes:
     Dado que el cliente ingresa al Home de Automation Practice
-    Cuando el cliente ingresa a la sección Contact Us y llena el formulario
+
+  @ScenarioName:llenadoFormularioDeContacto
+  Escenario: llenado de formulario obligatorio para Contacto
+    Cuando el cliente ingresa a la sección Contact Us y llena los campos obligatorios del formulario
     Entonces el cliente visualizará un mensaje de confirmación de envio de la solicitud
