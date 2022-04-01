@@ -13,24 +13,16 @@ import static co.com.automationpractice.webproject.test.helpers.Seconds.TWENTY_S
 public class ShoppingCartController {
 
     private WebAction webAction;
+    private ShoppingCartPage shoppingCartPage;
 
     public void setWebAction(WebAction webAction) {
         this.webAction = webAction;
     }
 
-    public void procederAgregarProducto(){
+    public void agregarProducto(){
         try{
             String randomPayOption = randomNumber();
-            ShoppingCartPage shoppingCartPage = new ShoppingCartPage(webAction.getDriver());
-
-            webAction.moveTo(shoppingCartPage.getProceedToCheckoutBtnCart(), TWENTY_SECONDS.getValue(), true);
-            webAction.click(shoppingCartPage.getProceedToCheckoutBtnCart(), TWENTY_SECONDS.getValue(), true);
-
-            webAction.moveTo(shoppingCartPage.getAddCommentMessage(), TWENTY_SECONDS.getValue(), true);
-            webAction.sendText(shoppingCartPage.getAddCommentMessage(),MESSAGE_COMMENT,TWENTY_SECONDS.getValue(),true);
-
-            webAction.moveTo(shoppingCartPage.getProceedToCheckoutSecondStep(), TWENTY_SECONDS.getValue(), true);
-            webAction.click(shoppingCartPage.getProceedToCheckoutSecondStep(), TWENTY_SECONDS.getValue(), true);
+            initialStages();
 
             webAction.moveTo(shoppingCartPage.getAgreeTermsCondition(), TWENTY_SECONDS.getValue(), true);
             webAction.click(shoppingCartPage.getAgreeTermsCondition(), TWENTY_SECONDS.getValue(), true);
@@ -56,16 +48,7 @@ public class ShoppingCartController {
 
     public void agregarProductosSinCheckearTerminos(){
         try{
-            ShoppingCartPage shoppingCartPage = new ShoppingCartPage(webAction.getDriver());
-
-            webAction.moveTo(shoppingCartPage.getProceedToCheckoutBtnCart(), TWENTY_SECONDS.getValue(), true);
-            webAction.click(shoppingCartPage.getProceedToCheckoutBtnCart(), TWENTY_SECONDS.getValue(), true);
-
-            webAction.moveTo(shoppingCartPage.getAddCommentMessage(), TWENTY_SECONDS.getValue(), true);
-            webAction.sendText(shoppingCartPage.getAddCommentMessage(),MESSAGE_COMMENT,TWENTY_SECONDS.getValue(),true);
-
-            webAction.moveTo(shoppingCartPage.getProceedToCheckoutSecondStep(), TWENTY_SECONDS.getValue(), true);
-            webAction.click(shoppingCartPage.getProceedToCheckoutSecondStep(), TWENTY_SECONDS.getValue(), true);
+            initialStages();
 
             webAction.moveTo(shoppingCartPage.getProceedToCheckoutThirdStep(), TWENTY_SECONDS.getValue(), true);
             webAction.click(shoppingCartPage.getProceedToCheckoutThirdStep(), TWENTY_SECONDS.getValue(), true);
@@ -75,6 +58,16 @@ public class ShoppingCartController {
         }
     }
 
+    private void initialStages() throws WebActionsException {
+        shoppingCartPage = new ShoppingCartPage(webAction.getDriver());
 
+        webAction.moveTo(shoppingCartPage.getProceedToCheckoutBtnCart(), TWENTY_SECONDS.getValue(), true);
+        webAction.click(shoppingCartPage.getProceedToCheckoutBtnCart(), TWENTY_SECONDS.getValue(), true);
 
+        webAction.moveTo(shoppingCartPage.getAddCommentMessage(), TWENTY_SECONDS.getValue(), true);
+        webAction.sendText(shoppingCartPage.getAddCommentMessage(),MESSAGE_COMMENT,TWENTY_SECONDS.getValue(),true);
+
+        webAction.moveTo(shoppingCartPage.getProceedToCheckoutSecondStep(), TWENTY_SECONDS.getValue(), true);
+        webAction.click(shoppingCartPage.getProceedToCheckoutSecondStep(), TWENTY_SECONDS.getValue(), true);
+    }
 }

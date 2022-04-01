@@ -15,6 +15,7 @@ import io.cucumber.java.es.Dado;
 import io.cucumber.java.es.Entonces;
 
 import static co.com.automationpractice.webproject.test.helpers.Dictionary.CUSTOMER_SERVICE_CONFIRMATION;
+import static co.com.automationpractice.webproject.test.helpers.Dictionary.EMAIL_ERROR_MESSAGE;
 
 public class ContactoConLaEmpresaStepsDefinition extends Setup{
 
@@ -37,6 +38,7 @@ public class ContactoConLaEmpresaStepsDefinition extends Setup{
         startBrowserWebController.abrirTiendaOnline();
 
     }
+
     @Cuando("el cliente ingresa a la sección Contact Us y llena los campos obligatorios del formulario")
     public void elClienteIngresaALaSeccionContactUsYLlenaLosCamposObligatoriosDelFormulario() {
 
@@ -44,6 +46,7 @@ public class ContactoConLaEmpresaStepsDefinition extends Setup{
         contactUsController.setWebAction(webAction);
         contactUsController.llenarFormularioDeContacto();
     }
+
     @Entonces("el cliente visualizará un mensaje de confirmación de envio de la solicitud")
     public void elClienteVisualizaraUnMensajeDeConfirmacionDeEnvioDeLaSolicitud() {
 
@@ -58,6 +61,28 @@ public class ContactoConLaEmpresaStepsDefinition extends Setup{
                 .isEqualTo(CUSTOMER_SERVICE_CONFIRMATION);
     }
 
+    @Cuando("el cliente ingresa a la sección Contact Us y llena campos del formulario sin agregar un email")
+    public void elClienteIngresaALaSeccionContactUsYLlenaCamposDelFormularioSinAgregarUnEmail() {
+
+        ContactUsController contactUsController = new ContactUsController();
+        contactUsController.setWebAction(webAction);
+        contactUsController.llenarFormularioDeContactoSinEmail();
+    }
+
+    @Entonces("el cliente visualizará un mensaje de error de email inválido")
+    public void elClienteVisualizaraUnMensajeDeErrorDeEmailInvalido() {
+
+        ContactUsController contactUsController = new ContactUsController();
+        contactUsController.setWebAction(webAction);
+
+        String confirmationMessage = contactUsController.obtenerMensajeEmailInvalido();
+
+        Assert
+                .Hard
+                .thatString(confirmationMessage)
+                .isEqualTo(EMAIL_ERROR_MESSAGE);
+    }
+
     @After
     public void cerrarDriver() {
 
@@ -69,5 +94,4 @@ public class ContactoConLaEmpresaStepsDefinition extends Setup{
                 .concat("-")
                 .concat(testInfo.getScenarioName()));
     }
-
 }

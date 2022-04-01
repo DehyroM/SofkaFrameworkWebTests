@@ -1,7 +1,5 @@
 package co.com.automationpractice.webproject.test.model;
 
-import co.com.automationpractice.webproject.test.helpers.Subject;
-
 public class Customer {
 
     private String email;

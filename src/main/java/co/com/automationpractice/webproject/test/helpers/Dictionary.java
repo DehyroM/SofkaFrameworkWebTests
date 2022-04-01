@@ -38,6 +38,7 @@ public class Dictionary {
     public static final String FILL_CONTACT_US_ERROR = "Ocurrio un error al intentar llenar el formulario de contacto: ";
     public static final String CONTACT_CONFIRMATION_ERROR = "Ocurrio un error al intentar confirmar el envío de la solicitud : ";
 
+    public static final String EMAIL_ERROR = "Ocurrio un error al intentar confirmar el ingreso de un email inválido: ";
 
     public static final String CUSTOMER_SERVICE_CONFIRMATION = "Your message has been successfully sent to our team.";
     public static final String EMAIL_ERROR_MESSAGE = "Invalid email address.";

@@ -56,7 +56,7 @@ public class CompraDeProductosStepsDefinition extends Setup{
 
         ShoppingCartController shoppingCartController = new ShoppingCartController();
         shoppingCartController.setWebAction(webAction);
-        shoppingCartController.procederAgregarProducto();
+        shoppingCartController.agregarProducto();
 
     }
     @Entonces("el cliente visualizará un mensaje de confirmación de la orden de compra")

@@ -14,7 +14,6 @@ import static co.com.automationpractice.webproject.test.helpers.Seconds.*;
 public class CreateAnAccountWebController {
 
     private WebAction webAction;
-    private Customer customer;
 
     public void setWebAction(WebAction webAction) {
         this.webAction = webAction;
@@ -22,12 +21,12 @@ public class CreateAnAccountWebController {
 
     public void crearUnaCuenta(){
         try{
-            customer = generateCustomer(EMAIL_DOMAIN);
+            Customer customer = generateCustomer(EMAIL_DOMAIN);
             String randomTitleOption = randomNumber();
 
             CreateAnAccountPage createAnAccountPage = new CreateAnAccountPage(webAction.getDriver());
 
-            webAction.sendText(createAnAccountPage.getEmailAddress(),customer.getEmail(),TWENTY_SECONDS.getValue(),true);
+            webAction.sendText(createAnAccountPage.getEmailAddress(), customer.getEmail(),TWENTY_SECONDS.getValue(),true);
             webAction.click(createAnAccountPage.getCreateAnAccount(), TWENTY_SECONDS.getValue(), true);
 
             if (randomTitleOption.equals("0")){
@@ -56,5 +55,4 @@ public class CreateAnAccountWebController {
             Report.reportFailure(CREATE_ACCOUNT_ERROR, e);
         }
     }
-
 }
