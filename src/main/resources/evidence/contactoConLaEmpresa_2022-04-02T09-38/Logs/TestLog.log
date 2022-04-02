@@ -1,0 +1,76 @@
+2022-abr-02 09:40:08 [Test] COMPLETED : Action 'startWebApp' executed successfully with parameters :
+'Feature : 'contactoConLaEmpresa' , Url : 'http://automationpractice.com/index.php''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\contactoConLaEmpresa_2022-04-02T09-38\contactoConLaEmpresa\llenadoFormularioDeContacto . Image name: llenadoFormularioDeContacto-0.png
+2022-abr-02 09:40:12 [Test] COMPLETED : Action 'click' executed successfully with parameters :
+'Web Element located by : 'No information' , Timeout : '20''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\contactoConLaEmpresa_2022-04-02T09-38\contactoConLaEmpresa\llenadoFormularioDeContacto . Image name: llenadoFormularioDeContacto-1.png
+2022-abr-02 09:40:13 [Test] COMPLETED : Action 'moveTo' executed successfully with parameters :
+'Web Element located by : 'No information' , Timeout : '20''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\contactoConLaEmpresa_2022-04-02T09-38\contactoConLaEmpresa\llenadoFormularioDeContacto . Image name: llenadoFormularioDeContacto-2.png
+2022-abr-02 09:40:15 [Test] COMPLETED : Action 'sendText' executed successfully with parameters :
+'Web Element located by : 'No information' , Text : 'Era_O'Conner@gmail.com' , Timeout : '20''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\contactoConLaEmpresa_2022-04-02T09-38\contactoConLaEmpresa\llenadoFormularioDeContacto . Image name: llenadoFormularioDeContacto-3.png
+2022-abr-02 09:40:16 [Test] COMPLETED : Action 'moveTo' executed successfully with parameters :
+'Web Element located by : 'No information' , Timeout : '20''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\contactoConLaEmpresa_2022-04-02T09-38\contactoConLaEmpresa\llenadoFormularioDeContacto . Image name: llenadoFormularioDeContacto-4.png
+2022-abr-02 09:40:17 [Test] COMPLETED : Action 'sendText' executed successfully with parameters :
+'Web Element located by : 'No information' , Text : 'Query about Heavy Duty Copper Table' , Timeout : '20''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\contactoConLaEmpresa_2022-04-02T09-38\contactoConLaEmpresa\llenadoFormularioDeContacto . Image name: llenadoFormularioDeContacto-5.png
+2022-abr-02 09:40:17 [Test] COMPLETED : Action 'moveTo' executed successfully with parameters :
+'Web Element located by : 'No information' , Timeout : '20''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\contactoConLaEmpresa_2022-04-02T09-38\contactoConLaEmpresa\llenadoFormularioDeContacto . Image name: llenadoFormularioDeContacto-6.png
+2022-abr-02 09:40:18 [Test] COMPLETED : Action 'sendText' executed successfully with parameters :
+'Web Element located by : 'No information' , Text : 'I would like to know if you have this product: Heavy Duty Copper Table' , Timeout : '20''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\contactoConLaEmpresa_2022-04-02T09-38\contactoConLaEmpresa\llenadoFormularioDeContacto . Image name: llenadoFormularioDeContacto-7.png
+2022-abr-02 09:40:19 [Test] COMPLETED : Action 'moveTo' executed successfully with parameters :
+'Web Element located by : 'No information' , Timeout : '20''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\contactoConLaEmpresa_2022-04-02T09-38\contactoConLaEmpresa\llenadoFormularioDeContacto . Image name: llenadoFormularioDeContacto-8.png
+2022-abr-02 09:40:19 [Test] COMPLETED : Action 'selectByValue' executed successfully with parameters :
+'Web Element located by : 'No information' , Option Value : '1' , Timeout : '20''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\contactoConLaEmpresa_2022-04-02T09-38\contactoConLaEmpresa\llenadoFormularioDeContacto . Image name: llenadoFormularioDeContacto-9.png
+2022-abr-02 09:40:20 [Test] COMPLETED : Action 'moveTo' executed successfully with parameters :
+'Web Element located by : 'No information' , Timeout : '20''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\contactoConLaEmpresa_2022-04-02T09-38\contactoConLaEmpresa\llenadoFormularioDeContacto . Image name: llenadoFormularioDeContacto-10.png
+2022-abr-02 09:40:22 [Test] COMPLETED : Action 'click' executed successfully with parameters :
+'Web Element located by : 'No information' , Timeout : '20''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\contactoConLaEmpresa_2022-04-02T09-38\contactoConLaEmpresa\llenadoFormularioDeContacto . Image name: llenadoFormularioDeContacto-11.png
+2022-abr-02 09:40:23 [Test] COMPLETED : Action 'getText' executed successfully with parameters :
+'Web Element located by : 'No information' , Timeout : '20' , Extracted Text : 'Your message has been successfully sent to our team.''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\contactoConLaEmpresa_2022-04-02T09-38\contactoConLaEmpresa\llenadoFormularioDeContacto . Image name: llenadoFormularioDeContacto-12.png
+2022-abr-02 09:40:26 [Test] INFO  : ***** HA FINALIZADO LA PRUEBA******contactoConLaEmpresa-llenadoFormularioDeContacto
+2022-abr-02 09:40:26 [Test] INFO  : ***** HA FINALIZADO LA PRUEBA******contactoConLaEmpresa-llenadoFormularioDeContacto
+2022-abr-02 09:40:37 [Test] COMPLETED : Action 'startWebApp' executed successfully with parameters :
+'Feature : 'contactoConLaEmpresa' , Url : 'http://automationpractice.com/index.php''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\contactoConLaEmpresa_2022-04-02T09-38\contactoConLaEmpresa\llenadoFormularioSinEmailDeContacto . Image name: llenadoFormularioSinEmailDeContacto-0.png
+2022-abr-02 09:40:42 [Test] COMPLETED : Action 'click' executed successfully with parameters :
+'Web Element located by : 'No information' , Timeout : '20''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\contactoConLaEmpresa_2022-04-02T09-38\contactoConLaEmpresa\llenadoFormularioSinEmailDeContacto . Image name: llenadoFormularioSinEmailDeContacto-1.png
+2022-abr-02 09:40:42 [Test] COMPLETED : Action 'moveTo' executed successfully with parameters :
+'Web Element located by : 'No information' , Timeout : '20''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\contactoConLaEmpresa_2022-04-02T09-38\contactoConLaEmpresa\llenadoFormularioSinEmailDeContacto . Image name: llenadoFormularioSinEmailDeContacto-2.png
+2022-abr-02 09:40:43 [Test] COMPLETED : Action 'sendText' executed successfully with parameters :
+'Web Element located by : 'No information' , Text : 'Query about Intelligent Paper Shoes' , Timeout : '20''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\contactoConLaEmpresa_2022-04-02T09-38\contactoConLaEmpresa\llenadoFormularioSinEmailDeContacto . Image name: llenadoFormularioSinEmailDeContacto-3.png
+2022-abr-02 09:40:44 [Test] COMPLETED : Action 'moveTo' executed successfully with parameters :
+'Web Element located by : 'No information' , Timeout : '20''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\contactoConLaEmpresa_2022-04-02T09-38\contactoConLaEmpresa\llenadoFormularioSinEmailDeContacto . Image name: llenadoFormularioSinEmailDeContacto-4.png
+2022-abr-02 09:40:45 [Test] COMPLETED : Action 'sendText' executed successfully with parameters :
+'Web Element located by : 'No information' , Text : 'I would like to know if you have this product: Intelligent Paper Shoes' , Timeout : '20''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\contactoConLaEmpresa_2022-04-02T09-38\contactoConLaEmpresa\llenadoFormularioSinEmailDeContacto . Image name: llenadoFormularioSinEmailDeContacto-5.png
+2022-abr-02 09:40:45 [Test] COMPLETED : Action 'moveTo' executed successfully with parameters :
+'Web Element located by : 'No information' , Timeout : '20''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\contactoConLaEmpresa_2022-04-02T09-38\contactoConLaEmpresa\llenadoFormularioSinEmailDeContacto . Image name: llenadoFormularioSinEmailDeContacto-6.png
+2022-abr-02 09:40:46 [Test] COMPLETED : Action 'selectByValue' executed successfully with parameters :
+'Web Element located by : 'No information' , Option Value : '2' , Timeout : '20''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\contactoConLaEmpresa_2022-04-02T09-38\contactoConLaEmpresa\llenadoFormularioSinEmailDeContacto . Image name: llenadoFormularioSinEmailDeContacto-7.png
+2022-abr-02 09:40:47 [Test] COMPLETED : Action 'moveTo' executed successfully with parameters :
+'Web Element located by : 'No information' , Timeout : '20''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\contactoConLaEmpresa_2022-04-02T09-38\contactoConLaEmpresa\llenadoFormularioSinEmailDeContacto . Image name: llenadoFormularioSinEmailDeContacto-8.png
+2022-abr-02 09:40:49 [Test] COMPLETED : Action 'click' executed successfully with parameters :
+'Web Element located by : 'No information' , Timeout : '20''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\contactoConLaEmpresa_2022-04-02T09-38\contactoConLaEmpresa\llenadoFormularioSinEmailDeContacto . Image name: llenadoFormularioSinEmailDeContacto-9.png
+2022-abr-02 09:40:50 [Test] COMPLETED : Action 'getText' executed successfully with parameters :
+'Web Element located by : 'No information' , Timeout : '20' , Extracted Text : 'Invalid email address.''.
+		Evidence saved at: C:\sofka\framework\SofkaFrameworkWebTests\src\main\resources\evidence\contactoConLaEmpresa_2022-04-02T09-38\contactoConLaEmpresa\llenadoFormularioSinEmailDeContacto . Image name: llenadoFormularioSinEmailDeContacto-10.png
+2022-abr-02 09:40:53 [Test] INFO  : ***** HA FINALIZADO LA PRUEBA******contactoConLaEmpresa-llenadoFormularioSinEmailDeContacto
+2022-abr-02 09:40:53 [Test] INFO  : ***** HA FINALIZADO LA PRUEBA******contactoConLaEmpresa-llenadoFormularioSinEmailDeContacto
